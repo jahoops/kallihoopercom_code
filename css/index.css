@@ -17,7 +17,7 @@ html {
 }
 
 body {
-  background: url(khbackground.jpg);
+  background: url(../img/khbackground.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: 20%;
