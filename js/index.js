@@ -3,7 +3,7 @@
     var w = window.innerWidth;
     var top = w / 5 + 'px';
     var fontsize = 14 * w / 1400 + 'px';
-    var t = $('#Typewriter');
+    var t = $('#typewriter');
     $(t).css({
       'top': top,
       'font-size': fontsize
@@ -18,8 +18,8 @@
 
   $('#pagepiling').pagepiling({
     menu: '#menu',
-    anchors: ['Typewriter', 'leadership', 'cad', 'javascript', 'drum', 'desert', 'blurred','excel', 'gallery', 'contact'],
-    sectionsColor: ['#bfda00', '#2ebe21', '#2C3E50', '#51bec4','#bfda00', '#2ebe21', '#2C3E50', '#51bec4','#bfda00', '#2ebe21'],
+    anchors: ['home', 'leadership', 'cad', 'javascript', 'drum', 'desert', 'blurred','excel', 'gallery', 'contact'],
+    sectionsColor: ['', 'rgb(235, 230, 221)', '#2C3E50', '#51bec4','#bfda00', '#2ebe21', '#2C3E50', '#51bec4','#bfda00', '#2ebe21'],
     direction: 'horizontal',
     navigation: {
       'position': 'right',

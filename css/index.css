@@ -18,14 +18,14 @@ html {
   overflow: auto;
 }
 
-body {
-  background: url(../img/khbackground.jpg);
+#home {
+  background: url(../img/khbackgrounds4.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position-y: 20%;
 }
 
-#Typewriter {
+#typewriter {
   position: absolute;
   color: #333;
   transform: rotate(1.67deg);
@@ -48,18 +48,19 @@ header {
   padding: 0em;
   margin: 0 4%;
   text-align: center;
+  z-index: 100;
 }
 
 .nav {
   font-family: "Unica One";
-  font-size: 1.2em;
+  font-size: 1.0em;
   color: rgb(230, 215, 215);
   border-radius: 0 0 50% 50%;
   text-shadow: 0 1px 0 #000;
   text-align: center;
   overflow: hidden;
   margin: 0 auto;
-  width: 80%;
+  width: 95%;
   background-color: rgba(235, 230, 221, 0.801);
   position: relative;
 }
@@ -67,14 +68,14 @@ header {
   background-color: rgba(255, 254, 253, 0.6);
 }
 .nav:hover .effect {
-  left: -7%;
+  left: -6.25%;
   display: block;
 }
 .nav a {
   position: relative;
   float: left;
   padding: .5em 0 2em;
-  width: 14%;
+  width: 12.5%;
   text-decoration: none;
   color: #393939;
   -webkit-transition: .7s;
@@ -99,31 +100,35 @@ header {
 }
 
 .nav a:nth-child(1):hover~.effect {
-  left: 7%;
+  left: 6.25%;
 }
 
 .nav a:nth-child(2):hover~.effect {
-  left: 21%;
+  left: 18.75%;
 }
 
 .nav a:nth-child(3):hover~.effect {
-  left: 35%;
+  left: 31.25%;
 }
 
 .nav a:nth-child(4):hover~.effect {
-  left: 49%;
+  left: 43.75%;
 }
 
 .nav a:nth-child(5):hover~.effect {
-  left: 63%;
+  left: 56.25%;
 }
 
 .nav a:nth-child(6):hover~.effect {
-  left: 77%;
+  left: 68.75%;
 }
 
 .nav a:nth-child(7):hover~.effect {
-  left: 91%;
+  left: 81.25%;
+}
+
+.nav a:nth-child(8):hover~.effect {
+  left: 93.75%;
 }
 
 /* ----- dot example -----*/
@@ -230,19 +235,5 @@ header {
   }
   to {
     border-right-color: transparent;
-  }
-}
-
-/* MEDIA QUERIES */
-
-@media screen and (min-width: 47.5em) {
-  .leftColumn {
-    margin-right: 19.5em;
-  }
-  .rightColumn {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 18.75em;
   }
 }

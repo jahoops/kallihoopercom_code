@@ -1,51 +1,49 @@
-:root {
-    --base: #f168cf;
-    --spacing:10px;
-    --blur:10px;
-  }
-  img{
-    padding:var(--spacing);
-    background: var(--base);
-    filter: blur(var(--blur));
-  
-  
-  }
-  .h1{
-    color:var(--base);
-  
-  }
+#blur :root {
+  --base: #f168cf;
+  --spacing: 10px;
+  --blur: 10px;
+}
 
-  :focus { outline: none; }
-  button {
- cursor: pointer;
+#blur img {
+  padding: var(--spacing);
+  background: var(--base);
+  filter: blur(var(--blur));
+}
 
-      height:50px;
+#blur .h1 {
+  color: var(--base);
+}
 
-      height: 39px;
-      border-radius: 50%;
-      padding: 0.5em 1em;
-      border: thin solid grey;
-  }
- button:hover {
-   background-color: beige;
- } 
-      /*
-        misc styles, nothing to do with CSS variables
-      */
-  
-      body {
-        text-align: center;
-        background: #fdfdfd;
-        color: rgb(63, 37, 179);
-        font-family: 'helvetica neue', sans-serif;
-        font-weight: 100;
-        font-size: 50px;
-      }
-  
-      .controls {
-        margin-bottom: 50px;
-      }
-  
-      input {
-        width:100px;
-      }
+#blur :focus {
+  outline: none;
+}
+
+#blur button {
+  cursor: pointer;
+  height: 50px;
+  height: 39px;
+  border-radius: 50%;
+  padding: 0.5em 1em;
+  border: thin solid grey;
+}
+
+#blur button:hover {
+  background-color: beige;
+}
+
+#blur {
+  text-align: center;
+  background: #fdfdfd;
+  color: rgb(63, 37, 179);
+  font-family: 'helvetica neue', sans-serif;
+  font-weight: 100;
+  font-size: 50px;
+}
+
+#blur .controls {
+  margin-bottom: 50px;
+}
+
+#blur input {
+  width: 100px;
+}
