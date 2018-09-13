@@ -6,7 +6,7 @@
  *
  * Copyright (C) 2016 alvarotrigo.com - A project by Alvaro Trigo
  */
-html, body {
+ html, body {
     overflow:hidden;
     margin:0;
     padding:0;
@@ -110,7 +110,7 @@ html, body {
 .pp-tooltip {
     position: absolute;
     top: -2px;
-    color: #fff;
+    color: #000;
     font-size: 14px;
     font-family: arial, helvetica, sans-serif;
     white-space: nowrap;

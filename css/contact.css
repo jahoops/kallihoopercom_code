@@ -1,0 +1,132 @@
+#contactdiv {
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 30px;
+    color: #777;
+    background: rgb(235, 230, 221);
+}
+
+#contactdiv .container {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+#contactdiv #contact input[type="text"],
+#contactdiv #contact input[type="email"],
+#contactdiv #contact input[type="tel"],
+#contactdiv #contact input[type="url"],
+#contactdiv #contact textarea,
+#contactdiv #contact button[type="submit"] {
+    font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+    border-radius: 5px;
+}
+
+#contactdiv #contact {
+    background: #F9F9F9;
+    padding: 25px;
+    margin: 40px 0 150px 0;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#contactdiv #contact h3 {
+    display: block;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+#contactdiv #contact h4 {
+    margin: 5px 0 15px;
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+#contactdiv fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+
+#contactdiv #contact input[type="text"],
+#contactdiv #contact input[type="email"],
+#contactdiv #contact input[type="tel"],
+#contactdiv #contact input[type="url"],
+#contactdiv #contact textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+}
+
+#contactdiv #contact input[type="text"]:hover,
+#contactdiv #contact input[type="email"]:hover,
+#contactdiv #contact input[type="tel"]:hover,
+#contactdiv #contact input[type="url"]:hover,
+#contactdiv #contact textarea:hover {
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #aaa;
+}
+
+#contactdiv #contact textarea {
+    height: 100px;
+    max-width: 100%;
+    resize: none;
+}
+
+#contactdiv #contact button[type="button"] {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    background: #039bc9b4;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+#contactdiv #contact button[type="button"]:hover {
+    background: rgba(36, 75, 182);
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#contactdiv #contact button[type="button"]:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+#contactdiv #contact input:focus,
+#contactdiv #contact textarea:focus {
+    outline: 0;
+    border: 1px solid #aaa;
+}
+
+#contactdiv ::-webkit-input-placeholder {
+    color: #888;
+}
+
+#contactdiv :-moz-placeholder {
+    color: #888;
+}
+
+#contactdiv ::-moz-placeholder {
+    color: #888;
+}
+
+#contactdiv :-ms-input-placeholder {
+    color: #888;
+}
+
+#contactdiv header {
+    margin: 20px 0 0 20px;
+}

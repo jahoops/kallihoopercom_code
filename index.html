@@ -4,7 +4,6 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-  <link href="./css/index.css" rel="stylesheet" type="text/css">
   <link href="http://fonts.googleapis.com/css?family=Rancho" rel="stylesheet" type="text/css" />
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Unica+One' rel='stylesheet' type='text/css'>
@@ -17,6 +16,8 @@
   <link href='css/clock.css' rel='stylesheet' type='text/css'>
   <link href='css/Drum.CSS' rel='stylesheet' type='text/css'>
   <link href='css/Blur.css' rel='stylesheet' type='text/css'>
+  <link href='css/contact.css' rel='stylesheet' type='text/css'>
+  <link href='css/index.css' rel='stylesheet' type='text/css'>
   <style>
     body {
       font-family: 'Rancho', Helvetica, Sans-serif;
@@ -31,138 +32,171 @@
   <header>
     <div class="ph-dot-nav nav">
       <a href="#home">Home</a>
-      <a href="Fall2018ResumeKalliHooper.pdf">Resume</a>
-      <a href="Leadership/Leadership.html" target="_blank">Leadership</a>
-      <a href="CAD/CAD.HTML">CAD</a>
-      <a href="simpleparallax-master/index.html">JavaScript</a>
-      <a href="Excel/Excel.html">Excel</a>
-      <a href="./Photo/PhotoGallery.html">Gallery</a>
-      <a href="Contact"> Contact</a>
+      <a href="Fall2018ResumeKalliHooper.pdf" target="_blank">Resume</a>
+      <a href="#leadership">Leadership</a>
+      <a href="#cad">CAD</a>
+      <a href="#drum">JavaScript</a>
+      <a href="#excel">Excel</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#contact"> Contact</a>
       <div class="effect"></div>
     </div>
   </header>
 
   <div id="pagepiling">
-    <div id="home" class="section">
+    <div id="home" class="section d-flex active">
       <div id="typewriter">
         <p class="line-1 anim-typewriter">Hi! I'm Kalli, a Senior Engineering-Management and Marketing double </p>
         <p class="line-2 anim-typewriter2"> major at Michigan Tech. Welcome to my portfolio!</p>
         <p class="line-3 anim-typewriter3"></p>
       </div>
     </div>
-    <div id="leadership" class="section container d-flex w-100 pt-5">
-      <div class="row text-center">
-        <div class="col-12 h1 m-3">Leadership Experiences</div>
+    <div id="leadership" class="section d-flex align-items-center justify-content-center h-100">
+      <div class="row text-center justify-content-center">
+        <div class="col-12 h1 p-5">Leadership Experiences</div>
       </div>
-      <div class="row">
+      <div class="row align-self-center">
         <div class="col-1"></div>
         <div class="col-2">
           <img class="p-2" src="img/ASEM_logo_web_400px.png" />
         </div>
-        <div class="col-9 justify-content-center align-self-center">
+        <div class="col-9 align-self-center">
           <div class="col-12">Student Organization President</div>
           <div class="col-12">Leading the American Society for Engineering Management was a
             valuable opportunity to test out my management skills.</div>
         </div>
       </div>
-      <div class="row">
+      <div class="row align-self-center">
         <div class="col-1"></div>
         <div class="col-2">
           <img class="p-2" src="img/kc.png" />
         </div>
-        <div class="col-9">
+        <div class="col-9 align-self-center">
           <div class="col-12">Consumer Products Challenge Team Leader</div>
-          <div class="col-12">Leading the American Society for Engineering Management was a
-            valuable opportunity to test out my management skills.</div>
+          <div class="col-12"></div>
         </div>
       </div>
-      <div class="row">
+      <div class="row align-self-center">
         <div class="col-1"></div>
         <div class="col-2">
           <img class="p-2" src="img/tech.png" />
         </div>
-        <div class="col-9">
+        <div class="col-9 align-self-center">
           <div class="col-12">Marketing Design Team Leader</div>
-          <div class="col-12">Leading the American Society for Engineering Management was a
-            valuable opportunity to test out my management skills.</div>
+          <div class="col-12"></div>
         </div>
       </div>
-      <div class="row">
+      <div class="row align-self-center">
         <div class="col-1"></div>
         <div class="col-2">
           <img class="p-2" src="img/tech.png" />
         </div>
-        <div class="col-9">
+        <div class="col-9 align-self-center">
           <div class="col-12">Head LEAP Leader (Supplemental Instructor)</div>
-          <div class="col-12">Leading the American Society for Engineering Management was a
-            valuable opportunity to test out my management skills.</div>
+          <div class="col-12"></div>
         </div>
       </div>
     </div>
-    <div id="cad" class="section"></div>
-    <div id="javascript" class="section"></div>
-    <div id="drum" class="section">
-      <div class="keys">
-        <div data-key="65" class="key">
-          <kbd>A</kbd>
-          <span class="sound">clap</span>
+    <div id="cad" class="section d-flex align-items-center justify-content-center text-center h-100">
+      <h1 class="main-heading p-5">3D Models</h1>
+      <div class="row d-flex flex-wrap px-3" style="height:40%;">
+        <div class="col-4">
+          <img class="images" src="img/rook.PNG" width="100%" height="60%" />
+          <h2>The Rook </h2>
+          <p> This project was created using the pattern tool along with extruding and trimming the shape.</p>
         </div>
-        <div data-key="83" class="key">
-          <kbd>S</kbd>
-          <span class="sound">hihat</span>
+        <div class="col-4">
+          <img class="images" src="img/tablescalable.PNG" width="100%" height="60%" />
+          <h2> Scalable Table</h2>
+          <p> This table uses expressions to allow the dimensions to be adjusted proportionally.</p>
         </div>
-        <div data-key="68" class="key">
-          <kbd>D</kbd>
-          <span class="sound">kick</span>
-        </div>
-        <div data-key="70" class="key">
-          <kbd>F</kbd>
-          <span class="sound">openhat</span>
-        </div>
-        <div data-key="71" class="key">
-          <kbd>G</kbd>
-          <span class="sound">boom</span>
-        </div>
-        <div data-key="72" class="key">
-          <kbd>H</kbd>
-          <span class="sound">ride</span>
-        </div>
-        <div data-key="74" class="key">
-          <kbd>J</kbd>
-          <span class="sound">snare</span>
-        </div>
-        <div data-key="75" class="key">
-          <kbd>K</kbd>
-          <span class="sound">tom</span>
-        </div>
-        <div data-key="76" class="key">
-          <kbd>L</kbd>
-          <span class="sound">tink</span>
+        <div class="col-4">
+          <img class="images" src="img/sectional.PNG" width="100%" height="60%" />
+          <h2>Sectional View</h2>
+          <p>Full-sectional and half-sectional views are another useful tool in NX.</p>
         </div>
       </div>
-      <audio data-key="65" src="sounds/clap.wav"></audio>
-      <audio data-key="83" src="sounds/hihat.wav"></audio>
-      <audio data-key="68" src="sounds/kick.wav"></audio>
-      <audio data-key="70" src="sounds/openhat.wav"></audio>
-      <audio data-key="71" src="sounds/boom.wav"></audio>
-      <audio data-key="72" src="sounds/ride.wav"></audio>
-      <audio data-key="74" src="sounds/snare.wav"></audio>
-      <audio data-key="75" src="sounds/tom.wav"></audio>
-      <audio data-key="76" src="sounds/tink.wav"></audio>
+      <div class="row d-flex flex-wrap px-3" style="height:40%;"">
+        <div class=" col-4">
+        <img class="images" src="img/brew.PNG" width="100%" height="60%" />
+        <h2>Brewery using planes</h2>
+        <p> Creating this brewery model involved the use of multi-directional planes. </p>
+      </div>
+      <div class="col-4">
+        <img class="images" src="img/nut.PNG" width="100%" height="60%" />
+        <h2>Nutcracker Assembly</h2>
+        <p> This assembled nutcracker uses constraints to allow the handle to spin. </p>
+      </div>
+      <div class="col-4">
+        <img class="images" src="img/wheel.PNG" width="100%" height="60%" />
+        <h2> Wheel Assembly </h2>
+        <p> This assembled wheel uses constraints to hold the structure together and allow only the wheel to spin. </p>
+      </div>
     </div>
-    <div id="desert" class="section">
-      <div id="clock" class="shadow-it">
-        <div class="clock">
-          <div class="clock-face">
-            <div class="hand hour-hand"></div>
-            <div class="hand min-hand"></div>
-            <div class="hand second-hand"></div>
-          </div>
+  </div>
+  <div id="drum" class="section d-flex align-items-center justify-content-center h-100">
+    <div class="keys">
+      <div data-key="65" class="key">
+        <kbd>A</kbd>
+        <span class="sound">clap</span>
+      </div>
+      <div data-key="83" class="key">
+        <kbd>S</kbd>
+        <span class="sound">hihat</span>
+      </div>
+      <div data-key="68" class="key">
+        <kbd>D</kbd>
+        <span class="sound">kick</span>
+      </div>
+      <div data-key="70" class="key">
+        <kbd>F</kbd>
+        <span class="sound">openhat</span>
+      </div>
+      <div data-key="71" class="key">
+        <kbd>G</kbd>
+        <span class="sound">boom</span>
+      </div>
+      <div data-key="72" class="key">
+        <kbd>H</kbd>
+        <span class="sound">ride</span>
+      </div>
+      <div data-key="74" class="key">
+        <kbd>J</kbd>
+        <span class="sound">snare</span>
+      </div>
+      <div data-key="75" class="key">
+        <kbd>K</kbd>
+        <span class="sound">tom</span>
+      </div>
+      <div data-key="76" class="key">
+        <kbd>L</kbd>
+        <span class="sound">tink</span>
+      </div>
+    </div>
+    <audio data-key="65" src="sounds/clap.wav"></audio>
+    <audio data-key="83" src="sounds/hihat.wav"></audio>
+    <audio data-key="68" src="sounds/kick.wav"></audio>
+    <audio data-key="70" src="sounds/openhat.wav"></audio>
+    <audio data-key="71" src="sounds/boom.wav"></audio>
+    <audio data-key="72" src="sounds/ride.wav"></audio>
+    <audio data-key="74" src="sounds/snare.wav"></audio>
+    <audio data-key="75" src="sounds/tom.wav"></audio>
+    <audio data-key="76" src="sounds/tink.wav"></audio>
+  </div>
+  <div id="desert" class="section d-flex align-items-center justify-content-center h-100">
+    <div id="clock" class="shadow-it p-5">
+      <div class="clock">
+        <div class="clock-face">
+          <div class="hand hour-hand"></div>
+          <div class="hand min-hand"></div>
+          <div class="hand second-hand"></div>
         </div>
       </div>
     </div>
-    <div id="blurred" class="section">
-      <div class="controls">
+  </div>
+  <div id="blurred" class="section container h-100">
+    <div class="row text-center p-5">
+      <div class="controls col-12 p-5">
         <label for="spacing">Spacing:</label>
         <input id="spacing" type="range" name="spacing" min="10" max="200" value="0" data-sizing="px">
 
@@ -172,25 +206,146 @@
         <label for="base">Base Color</label>
         <input id="base" type="color" name="base" value="#f168cf">
       </div>
-      <div>
-        <img id="slider" src="img/goat.jpg" width="auto" height="300px" />
-
+      <div class="col-12">
+        <img id="slider" src="img/goat.jpg" height="300px" />
       </div>
-      <div>
+      <div class="col-12">
         <button onclick="prev()"> Prev </button>
         <button onclick="next()"> Next </button>
       </div>
     </div>
-    <div id="excel" class="section"></div>
-    <div id="gallery" class="section"></div>
-    <div id="contact" class="section"></div>
+  </div>
+  <div id="excel" class="section d-flex align-items-center justify-content-center h-100">
+    <p> Throughout my coursework and internships I have worked extensively in Excel.</p>
+    <ul>
+      <li>Program in VBA</li>
+      <li> Power pivot tables</li>
+      <li>Formulas</li>
+      <li>Linking workbooks</li>
+      <li></li>
+    </ul>
+  </div>
+  <div id="gallery" class="section d-flex align-items-center justify-content-center h-100">
+    <div id="photos" style="top:5%;">
+      <div class="images">
+        <img src="img/asem.jpg" width="600" height="400">
+        <p class="description">The American Society for Engineering Management takes a trip to tour multiple
+          companies each year. In this picture we toured a foundry and got to see some cool metal castings! I learned
+          a lot about leadership and communication in my position as president for this student organization. I can't
+          wait to see where it goes in the future!</p>
+      </div>
+      <div class="images">
+        <img src="img/cpc.jpg" alt="" width="600" height="400">
+        <p class="description">Winning 3rd place made those long nights worth it at Michigan Tech's Consumer Products
+          Challenge. </p>
+      </div>
+      <div class="images">
+        <img src="img/plexus.jpg" alt="" width="600" height="400">
+        <p class="description">This summer I had the opportunity to be a Planning intern for Plexus Corp. Not only
+          did I learn how to automate various planning processes, I also met a group of amazing people!</p>
+      </div>
+      <div class="images">
+        <img src="img/swing.jpg" width="600" height="400">
+        <p class="description">Swing dance club has been a big part of my life in college. In this picture I was
+          performing at the Houghton Dance Showcase and having a blast.</p>
+      </div>
+      <div class="images">
+        <img src="img/SpainKalli17.jpg" alt="" width="600" height="400">
+        <p class="description">When I first met my host mom, Juliana, I was embarrassed to talk to her with my shaky
+          Spanish. After three months in Spain and hours at the dinner table, we could finally talk to our hearts
+          content! </p>
+      </div>
+      <div class="images">
+        <img src="img/gymnastics.png" alt="" width="600" height="400">
+        <p class="description">This poster was designed for a marketing competition where it took 1st place. It was
+          made to increase attendance at the local gymnastics studio in Hancock. Our models were thrilled! </p>
+      </div>
+      <div class="images">
+        <img src="img/product.PNG" alt="" width="600" height="400">
+        <p class="description">Presenting has been a huge part of my college experience. Here I am explaining my
+          teams product to the audience.</p>
+      </div>
+      <div class="images">
+        <img src="img/wib.jpg" alt="" width="600" height="400">
+        <p class="description">The Pioneering Woman in Business Scholarship has been an honor to recieve. Meeting the
+          donor and the other recipients has made the award special to me. </p>
+      </div>
+    </div>
+  </div>
+  <div id="contact" class="section d-flex align-items-center justify-content-center h-100">
+    <div id="contactdiv" class="mx-auto" style="max-width:600px;">
+      <form id="contact">
+        <h3>kallihooper.com</h3>
+        <h4>Send a message!</h4>
+        <fieldset>
+          <input name="name" placeholder="Your name" type="text" tabindex="1" required autofocus>
+        </fieldset>
+        <fieldset>
+          <input name="email" placeholder="Your Email Address" type="email" tabindex="2" required>
+        </fieldset>
+        <fieldset>
+          <input name="phone" placeholder="Your Phone Number (optional)" type="tel" tabindex="3">
+        </fieldset>
+        <fieldset>
+          <input name="website" placeholder="Your Web Site (optional)" type="url" tabindex="4">
+        </fieldset>
+        <fieldset>
+          <textarea name="message" placeholder="Type your message here...." tabindex="5" required></textarea>
+        </fieldset>
+        <fieldset>
+          <button type="button" id="contact-submit">Submit</button>
+        </fieldset>
+      </form>
+    </div>
+  </div>
   </div>
 
   <script src="./js/jquery-3.3.1.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
   <script src="./js/jquery-ui.min.js"></script>
+  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
   <script src="./js/jquery.pagepiling.js"></script>
   <script src="./js/index.js"></script>
+  <script>
+    $.fn.serializeObject = function () {
+      var o = {};
+      var a = this.serializeArray();
+      $.each(a, function () {
+        if (o[this.name] !== undefined) {
+          if (!o[this.name].push) {
+            o[this.name] = [o[this.name]];
+          }
+          o[this.name].push(this.value || '');
+        } else {
+          o[this.name] = this.value || '';
+        }
+      });
+      return o;
+    };
+    $('#contact-submit').on('click', function () {
+      var formobj = {};
+      formobj.ContactJSON = JSON.stringify($('#contact').serializeArray());
+      var settings = {
+        "async": true,
+        "crossDomain": true,
+        "dataType": "json",
+        "url": "http://jwhooper.net/api/Contacts",
+        "method": "POST",
+        "headers": {
+          "content-type": "application/json",
+          "cache-control": "no-cache"
+        },
+        "processData": false,
+        "data": JSON.stringify(formobj)
+      }
+
+      $.ajax(settings).done(function (response) {
+        alert('Message Sent!');
+      }).fail(function () {
+        alert('Error, message not sent');
+      });
+    });
+  </script>
 </body>
 
 </html>

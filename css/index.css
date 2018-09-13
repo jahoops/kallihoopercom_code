@@ -14,15 +14,13 @@ a {
 
 html {
   line-height: 1;
-  height: 100%;
-  overflow: auto;
 }
 
 #home {
-  background: url(../img/khbackgrounds4.jpg);
+  background: url('../img/khbackgrounds4.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-y: 20%;
+  background-position-y: -120px;
 }
 
 #typewriter {
@@ -236,4 +234,77 @@ header {
   to {
     border-right-color: transparent;
   }
+}
+
+#gallery {
+  background: rgb(235, 230, 221);
+  font-family: 'Roboto', sans-serif;
+  background-size: 100% 100%;
+}
+
+#gallery header {
+  border: 1px solid rgb(5, 5, 5);
+  padding: 0em;
+  Height: 50px;
+  text-align: center;
+  width: auto;
+}
+
+#gallery div.images {
+  margin: 5px;
+  border: 1px solid #ddd;
+  background: rgb(245, 247, 248);
+  float: left;
+  width: 250px;
+  -moz-box-shadow: 2px 2px 3px 0px #aaa;
+  -webkit-box-shadow: 2px 2px 3px 0px #aaa;
+  -o-box-shadow: 2px 2px 3px 0px #aaa;
+  box-shadow: 2px 2px 3px 0px #aaa;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+}
+
+#gallery div.images:hover {
+  -moz-box-shadow: 2px 2px 3px 0px #999;
+  -webkit-box-shadow: 2px 2px 3px 0px #999;
+  -o-box-shadow: 2px 2px 3px 0px #999;
+  box-shadow: 2px 2px 3px 0px #999;
+  filter: progid:DXImageTransform.Microsoft.Shadow(color=#999, Direction=134, Strength=3);
+}
+
+#gallery div.images:hover .description {
+  color: #2d2d2d;
+}
+
+#gallery div.images img {
+  width: 250px;
+  height: auto;
+  padding: 5px;
+}
+
+#gallery p.description {
+  color: #777;
+  padding: 15px;
+  text-align: center;
+}
+
+#gallery div.clear {
+  clear: both;
+}
+
+#gallery p.information {
+  color: #888;
+  text-align: center;
+  margin: 20px 0;
+}
+#gallery img:hover {
+  -webkit-transform: scale(2,2);
+  -moz-transform: scale(2,2);
+  transform: scale(2,2);
+  position: absolute;
+  z-index: 99999;
+}
+#cad .pictures{
+  text-align: center;
 }
